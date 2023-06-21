@@ -43,10 +43,8 @@ h3{
     font-size: 30px;
 }
 .img-index{
-    display: flex;
     height: 305px;
-    width: 30%;
-    align-self: center;
+    width: 50%;
     margin: .5rem;
     border-radius: 30px;
 }
@@ -131,14 +129,7 @@ tr,th,td{
 thead{
     font-size: 25px;
 }
-#tips{
-    display: flex;
-    gap: 4rem;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+
 #benefits{
     display: flex;
     gap: 4rem;
@@ -147,11 +138,12 @@ thead{
     justify-content: center;
     width: 100%;
 }
-.benefits-box{
-    padding-right: 12rem !important;
-}
+
 #benefits, #tips{
     font-size: 30px;
+}
+ol{
+    width: 23rem;
 }
 #benefits img{
     height: 300px;
