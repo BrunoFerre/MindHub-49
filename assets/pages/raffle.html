@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Raffle</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="./assets/pages/aboutUs.html">About Us</a>
+            <a href="./assets/pages/contact.html">Contact</a>
+            <a href="./assets/pages/information.html">Information</a>
+            <a href="./assets/pages/benefitsTips.html">Benefits</a>
+            <a href="#">Raffle</a>
+        </nav>
+        <img src="../images/logo.png" alt="Logo" class="logo">
+    </header>
+    <main id="main-raffle">
+        <div id="title-raffle">
+            <h1>Raffle</h1>
+            <p>You can collaborate and participate in a raffle for a 1-week trip</p>
+        </div>
+        <section class="map">
+            <h3>To participate you must be from Toronto, Canada</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097729225!2d-79.54286398851995!3d43.718370957982486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sar!4v1687373590321!5m2!1ses!2sar"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <form action="">
+            <fieldset id="personal-information">
+                <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input type="text" name="i-name" id="name">
+                <label for="l-name">Last Name</label>
+                <input type="text" name="i-lname" id="l-name">
+                <label for="email">Email</label>
+                <input type="email" name="i-email" id="email">
+            </fieldset>
+            <fieldset id="location">
+                <legend>Location</legend>
+                <label for="choose-country">Choose Country</label>
+                <input type="datetime" id="choose-country">
+                <label for="choose-date">Choose Date</label>
+                <input type="range" id="choose-date">
+            </fieldset>
+            <fieldset id="payment">
+                <legend>Payment Options</legend>
+                <label for="cash">Cash</label>
+                <input type="radio" name="i-cash" id="cash">
+                <label for="credit-card">Credit Card</label>
+                <input type="radio" name="i-cash" id="credit-card">
+                <label for="debit-card">Debit Card</label>
+                <input type="radio" name="i-cash" id="debit-card">
+            </fieldset>
+            <fieldset id="message">
+                <legend>Message (optional)</legend>
+                <input type="text-area">
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" name="i-text-area" id="acept">
+                <label for="acept">I accept terms and conditions</label>
+            </fieldset>
+
+        </form>
+    </main>
+    <footer id="footer-raffle">
+        <h4>Created By Ferreira Bruno Marcos</h4>
+    </footer>
+</body>
+
+</html>
