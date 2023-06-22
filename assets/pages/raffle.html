@@ -12,28 +12,24 @@
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="./assets/pages/aboutUs.html">About Us</a>
-            <a href="./assets/pages/contact.html">Contact</a>
-            <a href="./assets/pages/information.html">Information</a>
-            <a href="./assets/pages/benefitsTips.html">Benefits</a>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/aboutUs.html">About Us</a>
+            <a href="../pages/contact.html">Contact</a>
+            <a href="../pages/information.html">Information</a>
+            <a href="../pages/benefitsTips.html">Benefits</a>
             <a href="#">Raffle</a>
         </nav>
-        <img src="../images/logo.png" alt="Logo" class="logo">
+        <img src="../images/logo.png" alt="Logo" >
     </header>
     <main id="main-raffle">
-        <div id="title-raffle">
+        <section id="title-raffle">
             <h1>Raffle</h1>
             <p>You can collaborate and participate in a raffle for a 1-week trip</p>
-        </div>
+        </section>
         <section class="map">
             <h3>To participate you must be from Toronto, Canada</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097729225!2d-79.54286398851995!3d43.718370957982486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sar!4v1687373590321!5m2!1ses!2sar"
-                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <form action="">
+        <form action="../../showdata.html">
             <fieldset id="personal-information">
                 <legend>Personal Information</legend>
                 <label for="name">Name</label>
@@ -46,7 +42,7 @@
             <fieldset id="location">
                 <legend>Location</legend>
                 <label for="choose-country">Choose Country</label>
-                <input type="datetime" id="choose-country">
+                <input type="checkbox" id="choose-country" >
                 <label for="choose-date">Choose Date</label>
                 <input type="range" id="choose-date">
             </fieldset>
@@ -61,14 +57,17 @@
             </fieldset>
             <fieldset id="message">
                 <legend>Message (optional)</legend>
-                <input type="text-area">
+                <input type="text">
             </fieldset>
             <fieldset>
                 <input type="checkbox" name="i-text-area" id="acept">
                 <label for="acept">I accept terms and conditions</label>
             </fieldset>
-
         </form>
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097729225!2d-79.54286398851995!3d43.718370957982486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sar!4v1687373590321!5m2!1ses!2sar"
+                 style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer id="footer-raffle">
         <h4>Created By Ferreira Bruno Marcos</h4>
